@@ -5,6 +5,7 @@ import Envelope from '../components/valentine/Envelope';
 import PhotoGallery from '../components/valentine/PhotoGallery';
 import SurpriseGifts from '../components/valentine/SurpriseGifts';
 import MusicPlayer from '../components/valentine/MusicPlayer';
+import bg from '../assets/youware-bg.png';
 
 const ValentinePage = () => {
   const [step, setStep] = useState(0); // 0: Envelope, 1: Letter, 2: Gifts, 3: Music, 4: Photos
@@ -18,7 +19,7 @@ const ValentinePage = () => {
   };
 
   return (
-    <div className="h-screen w-screen overflow-hidden bg-cover bg-center relative flex flex-col items-center justify-center" style={{ backgroundImage: `url('https://public.youware.com/users-website-assets/prod/57fbfd7d-b1db-457a-ab48-7960d65ed970/70b33b04717e453ca3d027aee35778df.jpg')` }}>
+    <div className="h-screen w-screen overflow-hidden bg-cover bg-center relative flex flex-col items-center justify-center" style={{ backgroundImage: `url('${bg}')` }}>
       <div className="absolute inset-0 bg-pink-900/30 backdrop-blur-[2px]" />
 
       <div className="relative z-10 w-full max-w-6xl p-4 h-full flex flex-col justify-center">
