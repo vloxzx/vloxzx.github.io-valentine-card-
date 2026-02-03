@@ -15,7 +15,7 @@ const PhotoGallery = () => {
   return (
     <div className="max-w-3xl mx-auto w-full p-6 bg-[#fdfbf7] rounded-lg shadow-2xl border border-[#e0dbd1] relative overflow-hidden max-h-[70vh] overflow-y-auto">
       <img
-        src="https://public.youware.com/users-website-assets/prod/57fbfd7d-b1db-457a-ab48-7960d65ed970/deaef129c61d4634b906661a0cc6b224.png"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Flower_border.svg/1200px-Flower_border.svg.png"
         className="w-full h-full object-cover"
         alt="Floral Border"
       />
