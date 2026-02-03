@@ -37,7 +37,7 @@ const Envelope: React.FC<EnvelopeProps> = ({ onOpen }) => {
           animate={isOpen ? { opacity: 0 } : {}}
         >
           <img
-            src="https://public.youware.com/users-website-assets/prod/57fbfd7d-b1db-457a-ab48-7960d65ed970/deaef129c61d4634b906661a0cc6b224.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Wax_seal.svg/800px-Wax_seal.svg.png"
             alt="Wax Seal"
             className="w-24 h-24 drop-shadow-lg"
           />
