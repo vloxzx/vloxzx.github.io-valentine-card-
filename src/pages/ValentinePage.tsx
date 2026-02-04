@@ -18,8 +18,13 @@ const ValentinePage = () => {
   };
 
   return (
-    <div className="min-h-screen w-screen overflow-x-hidden bg-gradient-to-br from-pink-200 via-red-200 to-purple-200 relative flex flex-col items-center justify-center">
-      <div className="absolute inset-0 bg-pink-900/10" />
+    <div 
+      className="min-h-screen w-screen overflow-x-hidden relative flex flex-col items-center justify-center"
+      style={{
+        background: 'linear-gradient(135deg, #fce4ec 0%, #f8bbd0 25%, #f48fb1 50%, #f06292 75%, #ec407a 100%)'
+      }}
+    >
+      <div className="absolute inset-0" style={{ backgroundColor: 'rgba(136, 14, 79, 0.1)' }} />
 
       <div className="relative z-10 w-full max-w-6xl p-4 min-h-screen flex flex-col justify-center">
         <AnimatePresence mode="wait">
